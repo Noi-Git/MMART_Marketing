@@ -1,0 +1,189 @@
+/* ==== HOME SECTION ==== */
+
+#home-section {
+	background-image: 
+		url('http://www.mynotebook.org/portfolio/peopleImage/main-1.png');
+	background-size: auto;
+	background-position: top;
+	background-attachment: fixed;
+	min-height: 55vh;
+	position: relative; //for center text
+
+	.dark-overlay {
+		background-color: $overlay-color;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 55vh;
+	}
+}
+
+.text_primary {
+	text-transform: uppercase;
+	color: $light-text;
+}
+
+.text_main1 {
+	display: block;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 10px;
+	text-align: center;
+
+	padding-top: 30%;
+	left: 50%;
+	text-transform: translate(-50%, -50%)
+}
+
+.text_main2 {
+	display: block;
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 7px;
+	text-align: center;
+
+	padding-top: 10px;
+	left: 50%;
+	text-transform: translate(-50%, -50%)
+}
+
+.text_sub {
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 12px;
+	text-align: center;
+
+	padding-top: 55px;
+	left: 50%;
+	text-transform: translate(-50%, -50%)
+}
+
+
+
+/* ==== SIGNUP SECTION ==== */
+
+#signup-section {
+	background-color: $orange-bg;
+	padding: 50px 0;
+	color: $light-text;
+
+	a {
+	text-decoration: none;
+	text-align: center;
+	color: $light-text;
+	}
+}
+
+.signup-main {
+	letter-spacing: 5px;
+	font-weight: 400;
+}
+
+.signup-sub {
+	padding-top: 13px;
+}
+
+.btn-signup {
+	margin: 50px 0 30px 0;
+	padding: 20px;
+	border: 1px solid $light-text;
+
+	&:hover {
+		background-color: $orange-hover;
+	}
+}
+
+
+/* ==== ABOUT US SECTION ==== */
+
+#aboutus-section {
+	background-color: $off-white;
+	padding: 50px 0;
+	color: $dark-text;
+
+	a {
+	text-decoration: none;
+	text-align: center;
+	color: $light-text;
+	}
+}
+
+.aboutus-main {
+	letter-spacing: 5px;
+	font-weight: 400;
+}
+
+.btn-aboutus {
+	margin: 30px 0 30px 0;
+	padding: 5px;
+	border: 1px solid $light-text;
+
+	&:hover {
+		background-color: $orange-hover;
+	}
+}
+
+
+
+/* ==== FOOTER SECTION ==== */
+
+#footer-section {
+	background-color: $dark;
+	font-weight: 300;
+	font-style: 0.8rem;
+	color: $footer;
+
+	a {
+		font-weight: 300;
+		font-size: 0.9rem;
+		color: $footer;
+		text-align: center;
+		letter-spacing: 0.5px;
+
+		&:hover {
+		color: $light-text;
+		}
+	}
+
+
+	.footer-foot {
+		font-size: 0.8rem;
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+
+	.footer-head {
+		font-size: 1.1rem;
+		font-weight: 300;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+/* ==== VARIABLE ==== */
+/* ==== PLUGIN ==== */
+/* ==== BASE ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  background-color: #f0f5f5;
+  color: #555; }
+
+h2 {
+  text-align: center;
+  text-transform: uppercase; }
+
+h3 {
+  text-align: center; }
+
+/* ==== HOME SECTION ==== */
+#home-section {
+  background-image: url("http://www.mynotebook.org/portfolio/peopleImage/main-1.png");
+  background-size: auto;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 55vh;
+  position: relative; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 55vh; }
+
+.text_primary {
+  text-transform: uppercase;
+  color: #F4F1FA; }
+
+.text_main1 {
+  display: block;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top: 30%;
+  left: 50%;
+  text-transform: translate(-50%, -50%); }
+
+.text_main2 {
+  display: block;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  text-align: center;
+  padding-top: 10px;
+  left: 50%;
+  text-transform: translate(-50%, -50%); }
+
+.text_sub {
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 12px;
+  text-align: center;
+  padding-top: 55px;
+  left: 50%;
+  text-transform: translate(-50%, -50%); }
+
+/* ==== SIGNUP SECTION ==== */
+#signup-section {
+  background-color: #F1961B;
+  padding: 50px 0;
+  color: #F4F1FA; }
+  #signup-section a {
+    text-decoration: none;
+    text-align: center;
+    color: #F4F1FA; }
+
+.signup-main {
+  letter-spacing: 5px;
+  font-weight: 400; }
+
+.signup-sub {
+  padding-top: 13px; }
+
+.btn-signup {
+  margin: 50px 0 30px 0;
+  padding: 20px;
+  border: 1px solid #F4F1FA; }
+  .btn-signup:hover {
+    background-color: #F18C18; }
+
+/* ==== ABOUT US SECTION ==== */
+#aboutus-section {
+  background-color: #FCFFF6;
+  padding: 50px 0;
+  color: #777; }
+  #aboutus-section a {
+    text-decoration: none;
+    text-align: center;
+    color: #F4F1FA; }
+
+.aboutus-main {
+  letter-spacing: 5px;
+  font-weight: 400; }
+
+.btn-aboutus {
+  margin: 30px 0 30px 0;
+  padding: 5px;
+  border: 1px solid #F4F1FA; }
+  .btn-aboutus:hover {
+    background-color: #F18C18; }
+
+/* ==== FOOTER SECTION ==== */
+#footer-section {
+  background-color: #222121;
+  font-weight: 300;
+  font-style: 0.8rem;
+  color: #888; }
+  #footer-section a {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+    letter-spacing: 0.5px; }
+    #footer-section a:hover {
+      color: #F4F1FA; }
+  #footer-section .footer-foot {
+    font-size: 0.8rem;
+    font-weight: 300;
+    letter-spacing: 2px; }
+  #footer-section .footer-head {
+    font-size: 1.1rem;
+    font-weight: 300; }
+
+/* ==== FOOTER ==== */
+/* ==== PICTURE ==== */
+/* ==== MIXINS ==== */
