@@ -45,7 +45,7 @@ h3 {
   font-weight: 400;
   letter-spacing: 10px;
   text-align: center;
-  padding-top: 30%;
+  padding-top: 15%;
   left: 50%;
   text-transform: translate(-50%, -50%); }
 
@@ -114,20 +114,59 @@ h3 {
   .btn-aboutus:hover {
     background-color: #F18C18; }
 
-/* ==== FOOTER SECTION ==== */
+/* ==== ANIMATION SECTION ==== */
+#animation-head-section {
+  background-image: url("http://www.mynotebook.org/portfolio/peopleImage/main-1.png");
+  background-size: auto;
+  background-position: top;
+  background-attachment: fixed;
+  min-height: 20vh;
+  position: relative; }
+  #animation-head-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 20vh; }
+
+.animation_text_main2 {
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  text-align: center;
+  padding-top: 7%;
+  left: 50%;
+  text-transform: translate(-50%, -50%); }
+
+.form-help {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.text {
+  font-size: 18px;
+  color: #FCFFF6;
+  text-align: center;
+  padding-bottom: 20px; }
+
+.class-offer {
+  margin-top: 80px; }
+
+/* ==== FOOTER ==== */
 #footer-section {
   background-color: #222121;
   font-weight: 300;
   font-style: 0.8rem;
-  color: #888; }
+  color: #888;
+  text-align: center; }
   #footer-section a {
     font-weight: 300;
     font-size: 0.9rem;
     color: #888;
-    text-align: center;
     letter-spacing: 0.5px; }
     #footer-section a:hover {
-      color: #F4F1FA; }
+      color: #F4F1FA;
+      text-decoration: none; }
   #footer-section .footer-foot {
     font-size: 0.8rem;
     font-weight: 300;
@@ -136,6 +175,6 @@ h3 {
     font-size: 1.1rem;
     font-weight: 300; }
 
-/* ==== FOOTER ==== */
+/* ==== NAV BAR ==== */
 /* ==== PICTURE ==== */
 /* ==== MIXINS ==== */

@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/animation.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/animation.html",
+		"oF": 0
+		},
 	"\/assets\/css\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -159,6 +166,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/2-layout\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/2-layout\/_navbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/2-layout\/_navbar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

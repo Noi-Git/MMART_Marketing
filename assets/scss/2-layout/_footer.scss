@@ -1,2 +1,35 @@
 /* ==== FOOTER ==== */
 
+#footer-section {
+	background-color: $dark;
+	font-weight: 300;
+	font-style: 0.8rem;
+	color: $footer;
+	text-align: center;
+
+	a {
+		font-weight: 300;
+		font-size: 0.9rem;
+		color: $footer;
+		
+		letter-spacing: 0.5px;
+
+		&:hover {
+		color: $light-text;
+		text-decoration: none;
+		}
+	}
+
+
+	.footer-foot {
+		font-size: 0.8rem;
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+
+	.footer-head {
+		font-size: 1.1rem;
+		font-weight: 300;
+	}
+}
+

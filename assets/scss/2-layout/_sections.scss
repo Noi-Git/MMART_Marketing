@@ -31,7 +31,7 @@
 	letter-spacing: 10px;
 	text-align: center;
 
-	padding-top: 30%;
+	padding-top: 15%;
 	left: 50%;
 	text-transform: translate(-50%, -50%)
 }
@@ -126,40 +126,53 @@
 }
 
 
+/* ==== ANIMATION SECTION ==== */
 
-/* ==== FOOTER SECTION ==== */
+#animation-head-section {
+	background-image: 
+		url('http://www.mynotebook.org/portfolio/peopleImage/main-1.png');
+	background-size: auto;
+	background-position: top;
+	background-attachment: fixed;
+	min-height: 20vh;
+	position: relative; //for center text
 
-#footer-section {
-	background-color: $dark;
-	font-weight: 300;
-	font-style: 0.8rem;
-	color: $footer;
-
-	a {
-		font-weight: 300;
-		font-size: 0.9rem;
-		color: $footer;
-		text-align: center;
-		letter-spacing: 0.5px;
-
-		&:hover {
-		color: $light-text;
-		}
-	}
-
-
-	.footer-foot {
-		font-size: 0.8rem;
-		font-weight: 300;
-		letter-spacing: 2px;
-	}
-
-	.footer-head {
-		font-size: 1.1rem;
-		font-weight: 300;
+	.dark-overlay {
+		background-color: $overlay-color;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-height: 20vh;
 	}
 }
 
+.animation_text_main2 {
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 7px;
+	text-align: center;
+
+	padding-top: 7%;
+	left: 50%;
+	text-transform: translate(-50%, -50%)
+}
+
+.form-help {
+	background-color: $overlay-color;
+}
+
+.text {
+	font-size: 18px;
+	color: $off-white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.class-offer {
+	margin-top: 80px;
+}
 
 
 
